@@ -1,0 +1,57 @@
+/* Navbar & Footer Background */
+.navbar,
+.footer {
+    background: linear-gradient(135deg, rgb(58, 59, 61), rgb(58, 59, 61));
+    color: white;
+}
+
+.navbar .nav-link {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.navbar .nav-link.active {
+    color: rgba(255, 255, 255, 1) !important;
+    font-weight: bold;
+}
+
+.navbar .navbar-brand {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+.footer {
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgb(58, 59, 61);
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: white;
+    color: rgb(71, 75, 193);
+}
